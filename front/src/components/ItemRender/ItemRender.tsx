@@ -1,3 +1,4 @@
+import { renderDate } from "utils/converters";
 import "./ItemRender.css";
 
 type ItemRenderProps = {
@@ -23,14 +24,6 @@ const generateImageURL = (heroImage?: string) => {
     "&width=" +
     IMAGE_WIDTH
   );
-};
-
-const renderDate = (date: string) => {
-  if (!date) {
-    return "";
-  }
-  const dateObject = new Date(date);
-  return `${dateObject.getDate()} - ${dateObject.getMonth()} - ${dateObject.getFullYear()}`;
 };
 
 export default function ItemRender({
