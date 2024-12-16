@@ -1,1 +1,1 @@
-### A simple React-based site
+### A simple site to display Holiday Booking Options built in React!
