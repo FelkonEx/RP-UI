@@ -1,0 +1,35 @@
+html {
+  background-color: #F1F1F1;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #333333;
+}
+
+.trip-container {
+  display: flex;
+  justify-content: center;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-container {
+  margin: 1rem;
+  justify-content: left;
+}
+
+.header {
+  width: 100%;
+  font-style: italic;
+}
+
+.sort-button {
+  margin-right: 2rem;
+  width: 10rem;
+}
